@@ -1,0 +1,13 @@
+{
+  "_comment": "Copy this file to .claude/settings.local.json (gitignored). Personal overrides only — DO NOT commit. Anything here takes precedence over .claude/settings.json.",
+  "env": {
+    "TG_ENV": "nprd"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(code:*)",
+      "Bash(pwsh:*)"
+    ],
+    "deny": []
+  }
+}

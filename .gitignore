@@ -1,0 +1,68 @@
+# ─── Terraform ─────────────────────────────────────────────────────────────
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfplan.*
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraform.lock.hcl
+.terraformrc
+terraform.rc
+
+# ─── Terragrunt ────────────────────────────────────────────────────────────
+**/.terragrunt-cache/
+.terragrunt-cache/
+
+# ─── Secrets / sensitive ───────────────────────────────────────────────────
+.env
+.env.*
+*.auto.tfvars
+*.auto.tfvars.json
+*.pem
+*.key
+*.pfx
+*.p12
+secrets.*
+*.secret
+
+# ─── Claude Code ───────────────────────────────────────────────────────────
+.claude/settings.local.json
+CLAUDE.local.md
+
+# ─── OS ────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# ─── IDE ───────────────────────────────────────────────────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.iml
+*.code-workspace
+
+# ─── Azure CLI ─────────────────────────────────────────────────────────────
+.azure/
+
+# ─── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# ─── Test results ──────────────────────────────────────────────────────────
+tests/results/*
+!tests/results/.gitkeep
